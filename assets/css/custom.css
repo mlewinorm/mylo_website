@@ -137,7 +137,6 @@ h6 {
       rgba(0, 0, 0, 0.5)
     ), url('../img/Coaching.jpg');
 }
-
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent2 {
   color: white;
@@ -148,17 +147,25 @@ h6 {
 
 }
 
-#Home {background-color: #CC3232;
+.colorhome {
+  background-color: #CC3232
+}
+
+.colornews {
+  background-color: #C5B23C;
+}
+#Home {
+  background-color: #CC3232;
   text-align: center;
   padding: 20px 20px;
 }
   #pic {
     width: 95%;
 }
-  #break {
-  }
+
 
 #News {background-color: #C5B23C;}
+
 #Contact {background-color: #6187A9;}
 #About {background-color: orange;}
 }
